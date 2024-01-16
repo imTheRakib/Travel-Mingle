@@ -122,7 +122,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+  }
+  .special{
+    width: 100%;
   }
   .choose-box .choose-card .card-one,
   .choose-box .choose-card .card-two {
@@ -131,11 +134,26 @@
     margin: 5px;
   }
   .choose-box .choose-card .card-three {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
-  .choose-box {
+  .choose-box .choose-card{
+    display: flex;
     flex-direction: column;
+  }
+  .news-content{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+  }
+  .news-content .news-text{
+    width: 100%;
+    object-fit: cover;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    
   }
 }
 
