@@ -75,51 +75,130 @@
     margin-top: 1.5rem;
     margin-left: 0;
   }
-  .tour{
+  .tour {
     flex-direction: column;
-}
+  }
 
-.tour .main-left{
+  .tour .main-left {
     width: 100%;
     margin: 0;
     margin-left: 20px;
+  }
 
-}
-
-.tour .main-right img{
+  .tour .main-right img {
     width: 100%;
     margin-top: 1.25rem;
+  }
+  .destination-container,
+  .destination-container .top,
+  .destination-container .mid,
+  .destination-container .bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .destination-container .top .top-left,
+  .destination-container .top .top-right,
+  .destination-container .mid .mid-left,
+  .destination-container .mid .mid-mid,
+  .destination-container .mid .mid-right,
+  .destination-container .bottom .bottom-left,
+  .destination-container .bottom .bottom-right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .destination-container .mid .mid-left,
+  .destination-container .mid .mid-mid,
+  .destination-container .mid .mid-right {
+    background-size: cover;
+  }
+
+  .destination-container .top .top-left h1,
+  .destination-container .top .top-right h1 {
+    text-align: center;
+  }
+  .choose-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .choose-box .choose-card .card-one,
+  .choose-box .choose-card .card-two {
+    width: 100%;
+    background-size: cover;
+    margin: 5px;
+  }
+  .choose-box .choose-card .card-three {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .choose-box {
+    flex-direction: column;
+  }
 }
-.destination-container,
-    .destination-container .top,
-    .destination-container .mid,
-    .destination-container .bottom{
-        width: 100%;
-        flex-direction: column;
-    }
 
-    .destination-container .top .top-left,
-    .destination-container .top .top-right,
-    .destination-container .mid .mid-left,
-    .destination-container .mid .mid-mid,
-    .destination-container .mid .mid-right,
-    .destination-container .bottom .bottom-left,
-    .destination-container .bottom .bottom-right
-    {
-        width: 100%;
-        margin-top: 1rem;
+/* Responsive for desktop device */
+@media screen and (min-width:992px) and (max-width:1450px) {
+  .main-container
+   {
+      width: 100%;
+      justify-content: space-between;
+  }
 
-    }
 
-    .destination-container .mid .mid-left,
-    .destination-container .mid .mid-mid,
-    .destination-container .mid .mid-right{
-        background-size: cover;
-    }
 
-    .destination-container .top .top-left h1,
-    .destination-container .top .top-right h1{
-        text-align: center;
-    }
+  .main-container .main-right img{
+      width: 100%;
 
- }
+  }
+
+  .main-container .main-right,
+  .main-container .main-left{
+      width: 50%;
+  }
+
+  .destination-container,
+  .destination-container .top,
+  .destination-container .mid,
+  .destination-container .bottom{
+      width: 100%;
+  }
+
+  .destination-container .top .top-left,
+  .destination-container .top .top-right{
+      width: 49%;
+      background-size: cover;
+      margin: 1px;
+  }
+
+  .destination-container .mid .mid-left{
+      width:24%;
+      background-size: cover;
+
+  }
+
+  .destination-container .mid .mid-mid{
+      width:54%;
+      background-size: cover;
+      margin: 1px;
+  }
+
+  .destination-container .mid .mid-right{
+      width:19%;
+  }
+
+  .destination-container .bottom .bottom-left{
+      width:34%;
+      background-size: cover;
+  }
+
+  .destination-container .bottom .bottom-left h1{
+      margin-left: -50px;
+  }
+  .destination-container .bottom .bottom-right{
+      width:64%;
+      background-size: cover;
+  }
+}
