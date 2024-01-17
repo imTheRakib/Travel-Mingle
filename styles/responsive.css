@@ -75,19 +75,19 @@
     margin-top: 1.5rem;
     margin-left: 0;
   }
-  .tour {
+  .tour-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .tour-content {
+    display: flex;
     flex-direction: column;
   }
-
-  .tour .main-left {
+  .tour-content .tour-text {
     width: 100%;
-    margin: 0;
-    margin-left: 20px;
   }
-
-  .tour .main-right img {
+  .tour-content .tour-img img {
     width: 100%;
-    margin-top: 1.25rem;
   }
   .destination-container,
   .destination-container .top,
@@ -122,9 +122,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
   }
-  .special{
+  .special {
     width: 100%;
   }
   .choose-box .choose-card .card-one,
@@ -137,86 +136,103 @@
     width: 100%;
     margin: 0 auto;
   }
-  .choose-box .choose-card{
+  .choose-box .choose-card {
     display: flex;
     flex-direction: column;
   }
-  .news-content{
-    display: flex;
-    flex-direction: column;
-    object-fit: cover;
-  }
-  .news-content .news-text{
+  .newsletter {
     width: 100%;
-    object-fit: cover;
   }
-  .footer{
-    display: flex;
+
+  .newsletter-container {
     flex-direction: column;
-    
+    width: 100%;
+  }
+
+  .newsletter-container .news-left {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 2rem;
+  }
+
+  .newsletter-container .news-right {
+    width: 100%;
+    height: 10%;
+  }
+
+  .newsletter-container .news-right .btn {
+    width: 50%;
+    font-size: 0.75rem;
+    height: 30%;
+    border-radius: 0.5rem;
+    margin-bottom: 8%;
+    padding: 1rem;
+  }
+
+  .newsletter-container .news-right .btn span {
+    font-size: 1rem;
+  }
+  .footer-container,
+  .footer-container .line {
+    width: 100%;
   }
 }
 
 /* Responsive for desktop device */
-@media screen and (min-width:992px) and (max-width:1450px) {
-  .main-container
-   {
-      width: 100%;
-      justify-content: space-between;
+@media screen and (min-width: 992px) and (max-width: 1450px) {
+  .main-container {
+    width: 100%;
+    justify-content: space-between;
   }
 
-
-
-  .main-container .main-right img{
-      width: 100%;
-
+  .main-container .main-right img {
+    width: 100%;
   }
 
   .main-container .main-right,
-  .main-container .main-left{
-      width: 50%;
+  .main-container .main-left {
+    width: 50%;
   }
 
   .destination-container,
   .destination-container .top,
   .destination-container .mid,
-  .destination-container .bottom{
-      width: 100%;
+  .destination-container .bottom {
+    width: 100%;
   }
 
   .destination-container .top .top-left,
-  .destination-container .top .top-right{
-      width: 49%;
-      background-size: cover;
-      margin: 1px;
+  .destination-container .top .top-right {
+    width: 49%;
+    background-size: cover;
+    margin: 1px;
   }
 
-  .destination-container .mid .mid-left{
-      width:24%;
-      background-size: cover;
-
+  .destination-container .mid .mid-left {
+    width: 24%;
+    background-size: cover;
   }
 
-  .destination-container .mid .mid-mid{
-      width:54%;
-      background-size: cover;
-      margin: 1px;
+  .destination-container .mid .mid-mid {
+    width: 54%;
+    background-size: cover;
+    margin: 1px;
   }
 
-  .destination-container .mid .mid-right{
-      width:19%;
+  .destination-container .mid .mid-right {
+    width: 19%;
   }
 
-  .destination-container .bottom .bottom-left{
-      width:34%;
-      background-size: cover;
+  .destination-container .bottom .bottom-left {
+    width: 34%;
+    background-size: cover;
   }
 
-  .destination-container .bottom .bottom-left h1{
-      margin-left: -50px;
+  .destination-container .bottom .bottom-left h1 {
+    margin-left: -50px;
   }
-  .destination-container .bottom .bottom-right{
-      width:64%;
-      background-size: cover;
+  .destination-container .bottom .bottom-right {
+    width: 64%;
+    background-size: cover;
   }
 }
