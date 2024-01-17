@@ -340,6 +340,7 @@ ul {
     width: 35.8135rem;
     height: 18.75rem;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
@@ -347,6 +348,7 @@ ul {
     width: 35.8135rem;
     height: 18.75rem;
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(../Images/Rectangle\ 8.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
@@ -382,6 +384,7 @@ ul {
     width: 23.375rem;
     height: 17.875rem;
     background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 1000%), url(../Images/Rectangle\ 6.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
@@ -399,6 +402,7 @@ ul {
     width: 29.625rem;
     height: 17.875rem;
     background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
@@ -417,6 +421,7 @@ ul {
     width: 17.125rem;
     height: 17.875rem;
     background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
@@ -442,6 +447,7 @@ ul {
     height: 18.75rem;
     background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png);
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 1rem;
 }
 
@@ -459,6 +465,7 @@ ul {
     width: 42.0625rem;
     height: 18.75rem;
     background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
